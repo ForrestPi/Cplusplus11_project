@@ -1,0 +1,14 @@
+TEMPLATE = app
+CONFIG += console c++11
+CONFIG -= app_bundle
+CONFIG -= qt
+
+SOURCES += main.cpp \
+    threadpool.cpp
+
+HEADERS += \
+    threadpool.h \
+    condition.h
+
+
+LIBS += lpthread lrt
