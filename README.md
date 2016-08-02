@@ -16,3 +16,6 @@ MessageBox using C++11
 
 
 ##C++11 style about object-based programming
+
+##paralleTask
+C++11 head only paralleTask library
